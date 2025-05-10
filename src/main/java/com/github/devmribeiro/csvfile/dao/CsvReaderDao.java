@@ -25,6 +25,7 @@ public class CsvReaderDao {
 					"	uf_nome, " +
 					"	uf_sigla, " +
 					"	uf_regiao " +
+					") " +
 					"values (?, ?, ?, ?)");
 			
 			Iterator<List<String>> itr = data.iterator();
